@@ -2,7 +2,10 @@
 
 ## xcode-clang-format.applescript
 
-This is an osascript that can use `clang-format `to format a selection in xcode
+This is an osascript that can use `clang-format `to format a selection in XCode.
+
+**Note:** maintaining this script has become increasingly difficult due to changes in how Xcode works with plugins.  
+Consider [`git clang-format`](https://clang.llvm.org/docs/ClangFormat.html#git-integration) as an alternative.
 
 ### Installation
 
